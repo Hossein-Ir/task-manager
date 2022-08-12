@@ -1,0 +1,66 @@
+.container{
+    width: 300px;
+    margin: 1rem auto;
+}
+/* .title{
+} */
+.btn{
+    background-color: #FF00FF;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 25px;
+    /* margin-left: 0; */
+    /* padding-right: 0; */
+}
+header{
+    display: grid;
+    grid-template-columns: 2fr 1rem;
+
+}
+.tasks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+}
+h1{
+    margin: 0;
+}
+.dotBlue{
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 128, 255);
+    position: relative;
+    
+}
+.tasksType{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 2px solid #808080;
+    gap: 1rem;
+    padding-top: 1rem;
+    margin-left: 3rem;
+}
+.information{
+    box-shadow: 1px 3px 5px #808080;
+    padding: 1rem;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+.timeSchedule{
+    display: flex;
+    /* grid-template-columns: 1fr 2fr; */
+}
+.timeLine{
+    list-style-type: none;
+    padding-left: 0rem;
+}
+.line{
+    height: 1px;
+    background-color: #808080;
+    list-style-type: none;
+    padding-left: 0rem;
+    padding-top: 10rem;
+
+}

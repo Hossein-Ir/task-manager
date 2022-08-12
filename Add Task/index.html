@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div><img src="arrow-left.png" alt="arrowLeft"></div>
+        <div><input type="text" placeholder="Add Task" name="addTask"></div>
+    </header>
+    <main>
+        <div>
+            <div class="date">
+                <div><label for="date-select">Choose date</label></div>
+                <select name="dates" id="date-select">
+                    <option value="1">13 August 2022</option>
+                    <option value="2">14 August 2022</option>
+                    <option value="3">15 August 2022</option>
+                </select>
+            </div>
+            <div class="time">
+                <div><label for="time-select">Choose time</label></div>
+                <select name="times" id="time-select">
+                    <option value="1">12:00 - 13:00</option>
+                    <option value="2">13:00 - 14:00</option>
+                    <option value="3">14:00 - 15:00</option>
+                </select>
+
+            </div>
+            <div class="taskType">
+                <label for="task-type">Choose task type</label>
+
+            </div>
+            <div>
+                <div><label for="description">Write description</label></div>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+        </div>    
+    </main>
+    <footer>
+        <button>add task</button>
+    </footer>
+</body>
+</html>
